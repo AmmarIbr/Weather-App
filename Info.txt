@@ -1,0 +1,23 @@
+Slogans:
+Stay ahead of the weather.
+Forecast made easy.
+Weather-proof your day.
+Stay dry, stay informed.
+Sunny or stormy, we know.
+Weather on the go.
+Be prepared, rain or shine.
+
+Rhyming Slogans:
+Be clever, know the weather.
+Stay ahead with our forecast thread.
+
+API's to use:
+Weather Forecast(hourly, daily, today?)
+News (weather related or general global news?)
+Rader map?
+Hurricane watch?
+Air Quality?
+Severe Weather?
+
+Header Background:
+https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80
