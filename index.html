@@ -6,18 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WeatherApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <title>WeatherMate</title>
+    <link rel="icon" href="./Final Logo/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <header class="nav-center">
+
+    <Header class="topHeader">
         <nav class="nav-header">
-            <img class="logo" src="./Final Logo/weathermate-high-resolution-logo-white-on-transparent-background.png"
-                alt="">
-            <div>
+
+            <div class="logo">
+                <img src="./Final Logo/weathermate-high-resolution-logo-white-on-transparent-background.png" alt="">
             </div>
+            <div class="form">
+                <form class="searchForm">
+                    <i class="fa fa-search icon"></i>
+                    <input class="search" type="text" name="search" placeholder="Search" autocomplete="off">
+                </form>
+            </div>
+
         </nav>
-    </header>
+
+        <section class="autoCompleteBox">
+
+        </section>
+    </Header>
+
+    <main>
+        <section class="currentWeather">
+            <div class="heading">
+                <ul>
+                    <li>Current Weather</li>
+                    <li id="currentTime"></li>
+                </ul>
+            </div>
+            <div class="temperature">
+                <div class="displayTemp">
+                    -5°
+                    <span class="sub">C</span>
+                </div>
+                <div class="feelsLike"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
 </body>
 

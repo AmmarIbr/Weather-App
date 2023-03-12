@@ -12,7 +12,7 @@ Be clever, know the weather.
 Stay ahead with our forecast thread.
 
 API's to use:
-Weather Forecast(hourly, daily, today?)
+Weather Forecast(hourly, daily, today?) - WeatherAPI: API Key: 30832b5a2a13422485f64334231003
 News (weather related or general global news?)
 Rader map?
 Hurricane watch?
@@ -21,3 +21,5 @@ Severe Weather?
 
 Header Background:
 https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80
+
+
