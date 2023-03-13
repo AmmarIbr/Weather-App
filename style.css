@@ -129,7 +129,7 @@ table {
 }
 
 .nav-header {
-  height: 400px;
+  height: 300px;
   background: url("./Final Logo/background.jpg");
   background-size: cover;
   display: flex;
@@ -242,11 +242,15 @@ main {
   margin: 0 auto;
 }
 
-section.currenWeather {
+section.currentWeather {
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
+  box-shadow: -3px 3px 5px lightslategray;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
 }
 
 .heading ul {
@@ -261,11 +265,36 @@ section.currenWeather {
   font-size: 1.3em;
 }
 
-.temperature .displayTemp {
-  font-size: 3em;
+.currentWeather .temperature {
+  width: 220px;
+  margin-top: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
-.temperature .displayTemp .sub {
-  font-size: 0.48em;
-  margin-left: -29px;
+
+.temperature .displayTemp {
+  font-size: 4em;
+}
+.temperature .displayTemp .celsius {
+  font-size: 0.3em;
+  margin-left: -20px;
   color: gray;
+}
+
+.temperature .feelsLike {
+  margin-top: 15px;
+  font-size: 1.2em;
+  display: inline;
+}
+
+.currentWeather .condition {
+  font-size: 1.2em;
+}
+
+.currentWeather .icon {
+  width: 64px;
+  height: 64px;
 }

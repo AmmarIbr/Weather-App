@@ -23,3 +23,34 @@ Header Background:
 https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80
 
 
+
+/*
+async function autoComplete(e) {
+  if (query.length <= 3 || query === "") {
+    query = searchBox.value;
+  } else {
+    query = searchBox.value;
+    console.log(query);
+    const config = { params: { q: query } };
+    const res = await axios.get(
+      `https://api.weatherapi.com/v1/search.json?key=30832b5a2a13422485f64334231003`,
+      config
+    );
+    for (let i = 0; i < searchResult.length; i++) {
+      if (res.data[i] === undefined) {
+        break;
+      } else if (query.length < 4) {
+        searchResult[i].classList.remove("active");
+      } else {
+        searchResult[
+          i
+        ].textContent = `${res.data[i].name}, ${res.data[i].region}, ${res.data[i].country}`;
+        searchResult[i].classList.add("active");
+        console.log(res.data);
+      }
+    }
+  }
+}
+*/
+
+have news in the front page, then once search is done, go to second page to view forecast
